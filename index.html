@@ -4,12 +4,40 @@
     <meta charset="utf-8">
     <title></title>
     <script src="main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <hr/>
-    <div id="display-element"></div>
-    <button onclick="displayDate()">Click Me</button>
-    <hr/>
+    <H1>Day 1 Homework</H1>
+    <p>Click on the buttons to see the current function results. Play with the values in the functions in the console log to test the JavaScript integrity.</p>
+    <p>Example:</p>
+    <button id="display-element" onclick="displayDate()">Click me for the date!</button>
+    <p></p>
+    <p>Function1: Convert a number to a string.</p>
+    <button id="function1" onclick="function1(34)">Current Value: 34</button>
+    <p></p>
+
+    <p>Function2: Convert a string to a number.</p>
+    <button id="function2" onclick="function2('123')">Current Value: "123"</button>
+    <p></p>
+    
+    <p>Function3: Displays input data type.</p>
+    <button id="function3" onclick="function3(true)">Current Value: true</button>
+    <p></p>
+    
+    <p>Function4: Adds two numbers.</p>
+    <button id="function4" onclick="function4(6,5)">Current Value: 6,5</button>
+    <p></p>
+    
+    <p>Function5: Runs if two values are true.</p>
+    <button id="function5" onclick="function5(true,true)">Current Value: true,true</button>
+    <p></p>
+
+    <p>Function6: Runs if one of two values is true.</p>
+    <button id="function6" onclick="function6(true,false)">Current Value: true,false</button>
+    <p></p>
+    
+    <p>Function7: Runs when two values are false.</p>
+    <button id="function7" onclick="function7(false, false)">Current Value: false,false</button>
   </body>
 </html>
